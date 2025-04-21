@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.headerSection{
+    background-color: #356735;
+    padding: 8px 0px 8px 0px;
+}
+
+.headerInnerSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 24px 0px 24px;
+}
+
+.headerLink{
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.headerImg{
+    width: 48px;
+}
+
+.headerImgSection{
+    background-color: white;
+    padding: 4px 8px 2px 8px;
+    border-radius: 5px;
+}
+
+.headerLinkSection{
+    display: flex;
+    align-items: center;
+}
+
+.headerSeperator{
+    border: solid 1px white;
+    height: 24px;
+    margin: 8px;
+}
+
+.headerLink{
+    color: white;
+    text-decoration: none;
+}

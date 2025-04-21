@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.footerSection{
+    background-color: #356735;
+    padding: 8px 0px 8px 0px;
+}
+
+.footerInnerSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 24px 0px 24px;
+}
+
+.footerLink{
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.footerImg{
+    width: 48px;
+}
+
+.footerImgSection{
+    background-color: white;
+    padding: 4px 8px 2px 8px;
+    border-radius: 5px;
+}
+
+.footerLinkSection{
+    display: flex;
+    align-items: center;
+}
+
+.footerSeperator{
+    border: solid 1px white;
+    height: 24px;
+    margin: 8px;
+}
+
+.footerLink{
+    color: white;
+    text-decoration: none;
+}

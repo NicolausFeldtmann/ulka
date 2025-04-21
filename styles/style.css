@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px 0px 0px;
+}
+
+.frontImgSection{
+    display: flex;
+    justify-content: center;
+}
+
+.frontImg{
+    width: 288px;
+}
+
+.infoTxtSection{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+    z-index: -1;
+    top: 48px;
+    width: 134px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+    left: 0;
+    position: absolute;
+}
+
+.linkBox{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.asideLink{
+    padding: 4px 4px 4px 4px;
+    background-color: #356735;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
