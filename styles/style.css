@@ -20,6 +20,7 @@ body{
 
 .frontImg{
     width: 288px;
+    border-radius: 5px;
 }
 
 .infoTxtSection{
@@ -37,9 +38,10 @@ aside{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(184, 192, 119);
     left: 0;
     position: absolute;
+    border-radius: 10px;
 }
 
 .linkBox{
@@ -53,9 +55,17 @@ aside{
 }
 
 .asideLink{
+    width: 118px;
     padding: 4px 4px 4px 4px;
     background-color: #356735;
     color: white;
     text-decoration: none;
     border-radius: 10px;
+}
+
+.active{
+    width: 130px;
+    margin: 0px 0px 0px 12px;
+    background-color: white;
+    color: #356735;
 }
