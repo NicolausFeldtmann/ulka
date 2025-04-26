@@ -3,14 +3,16 @@
 <head>
 
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/price.css">
 
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/db.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="init()">
+<body onload="init(), renderPriceList()">
     <header w3-include-html="header.html"></header>
 
     <aside>
@@ -21,6 +23,8 @@
             <a class="asideLink" href="#">Kantacktieren Sie mich</a>
         </div>
     </aside>
+
+   <div class="priceList" id="priceList"></div>
     
 </body>
 </html>

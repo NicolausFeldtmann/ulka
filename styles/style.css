@@ -16,6 +16,11 @@ body{
 .frontImgSection{
     display: flex;
     justify-content: center;
+    align-items: end;
+}
+
+.frontImgBanner{
+    margin: 0px 0px 48px 0px;
 }
 
 .frontImg{
@@ -29,8 +34,12 @@ body{
     justify-content: center;
 }
 
+header{
+    z-index: 10;
+}
+
 aside{
-    z-index: -1;
+    z-index: 5;
     top: 48px;
     width: 134px;
     height: 480px;
