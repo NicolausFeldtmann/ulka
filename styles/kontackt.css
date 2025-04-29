@@ -1,0 +1,73 @@
+.contacts{
+    margin: 0px 0px 0px 160px;
+    width: 75%;
+}
+
+.contactImg{
+    width: 188px;
+}
+
+.contentHeader{
+    display: flex;
+    margin: 16px 0px 34px 0px;
+}
+
+.contentHeaderTxt{
+    margin: 0px 0px 0px 196px;
+}
+
+.emailContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.emailArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px rgb(131, 123, 96);
+    margin: 48px 0px 48px 0px;
+    width: 50%;
+    padding: 12px 0px 12px 48px;
+    border-radius: 10px;
+}
+
+aside{
+    z-index: 5;
+    top: 48px;
+    width: 134px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(184, 192, 119);
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.inputArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputBox{
+    width: 100%;
+    margin: 12px 0px 12px 0px;
+}
+
+input{
+    width: 75%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 75%;
+    height: 148px;
+    font-size: 18px;
+    border-radius: 5px;
+}

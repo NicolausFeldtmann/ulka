@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Work Sans", sans-serif;
 }
 
 .content{
@@ -77,4 +78,17 @@ aside{
     margin: 0px 0px 0px 12px;
     background-color: white;
     color: #356735;
+    padding: 4px 12px 4px 4px;
+}
+
+h1{
+    color: rgb(3, 113, 56);
+}
+
+h2{
+    color: rgb(3, 113, 56);
+}
+
+h3{
+    color: rgb(131, 123, 96);
 }

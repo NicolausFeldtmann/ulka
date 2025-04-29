@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./styles/style.css">
 
+    <script src="./scripts/templates.js"></script>
     <script src="./scripts/script.js"></script>
     <script src="./scripts/db.js"></script>
 
@@ -11,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gebäudeenergieberatung Ulka</title>
 </head>
-<body onload="init()">
+<body onload="init(), renderInfoTxt(), renderConsultation()">
     <header w3-include-html="header.html"></header>
 
     <aside>
@@ -19,7 +24,7 @@
             <a class="asideLink active" href="index.html">Startseite</a>
             <a class="asideLink" href="price.html">Preise und Leisungen</a>
             <a class="asideLink" href="aboutMe.html">Über Mich</a>
-            <a class="asideLink" href="kontackts.html">Kantacktieren Sie mich</a>
+            <a class="asideLink" href="kontackt.html">Kantacktieren Sie mich</a>
         </div>
     </aside>
     <div class="content">
@@ -29,6 +34,8 @@
                 <div class="infoBannerCtx">Beste Energiebeatung;<br>hilft auch sonst zum Glück!</div>
             </div>
         </div>
+
+        <div class="consultation" id="consul"></div>
 
         <div class="infoTxtSection">
             <div class="infoTxt" id="infoText">

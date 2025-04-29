@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/kontackt.css">
+
+    <script src="./scripts/templates.js"></script>
+    <script src="./scripts/script.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="init()">
+    <header w3-include-html="header.html"></header>
+
+    <aside>
+        <div class="linkBox">
+            <a class="asideLink" href="index.html">Startseite</a>
+            <a class="asideLink" href="price.html">Preise und Leisungen</a>
+            <a class="asideLink" href="aboutMe.html">Über Mich</a>
+            <a class="asideLink active">Kantacktieren Sie mich</a>
+        </div>
+    </aside>
+
+    <div class="contacts">
+        <h2>Einfache Kontackaufnahme</h2>
+
+        <div class="contentHeader">
+            <img class="contactImg" src="./assets/img/logo.png">
+            <div class="contentHeaderTxt">
+                <h3>Ein Titel für diesen Absatz</h3>
+                <div class="slogan">
+                    <p class="contactPara">Interesse geweckt?</p>
+                    <p class="contactPara">Noch Fragen?</p>
+                    <p class="contactPara">Dann melden Sie sich gerne bei mir.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactInfo">
+            <div class="phone">Mobile: 0163/4820437</div>
+            <div class="mail">E-mail: c-ulka@hotmail.de</div>
+        </div>
+        <div class="emailContainer">
+            <div class="emailArea">
+                <h3>Kontacktieren Sie uns per E-mail</h3>
+                <div class="inputArea">
+                    <div class="inputBox">
+                        <div class="inputTxt">Ihre E-mail Adresse</div>
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="inputBox">
+                        <div class="inputTxt">Betreff Ihrer Nachricht</div>
+                        <input type="text" placeholder="Betreff">
+                    </div>
+                    <div class="inputBox">
+                        <div class="inputTxt">Ihre Nachricht</div>
+                        <textarea name="" id="" placeholder="Ihre Nachricht"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer w3-include-html="footer.html"></footer>
+</body>
+</html>
