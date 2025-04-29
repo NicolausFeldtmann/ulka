@@ -1,12 +1,14 @@
-let list = {
-    "price1": "120€",
-    "price2": "0,20€",
-    "price3": "350€",
-    "price4": "450€",
-    "price5": "350€",
-    "price6": "800€",
-    "price7": "2300€",
-    "price8": "3400€",
-    "price9": "200€",
-    "price10": "2000€",
-}
+let prices = [
+    {
+    "position1": "120€",
+    "position2": "0,20€",
+    "position3": "350€",
+    "position4": "450€",
+    "position5": "350€",
+    "position6": "800€",
+    "position7": "2300€",
+    "position8": "3400€",
+    "position9": "200€",
+    "position10": "2000€",
+    },
+]

@@ -33,6 +33,7 @@ function init() {
   includeHTML(function() {
       renderInfoTxt();
       renderPriceList();
+      renderMe();
   });
 }
 
@@ -45,20 +46,27 @@ function init() {
 
   function renderPriceList() {
     let contentRef = document.getElementById('priceList');
-    contentRef.innerHTML ="";
-    for (let i = 0; i < list.length; i++) {
-      let price1 = list[i].price1;
-      let price2 = list[i].price2;
-      let price3 = list[i].price3;
-      let price4 = list[i].price4;
-      let price5 = list[i].price5;
-      let price6 = list[i].price6;
-      let price7 = list[i].price7;
-      let price8 = list[i].price8;
-      let price9 = list[i].price9;
-      let price10 = list[i].price10;
-      contentRef.innerHTML += getPriceTemplate(price1, price2, price3, price4, price5, price6, price7, price8, price9, price10);
+    contentRef.innerHTML = "";
+    for (let i = 0; i < prices.length; i++) {
+      let pos1 = prices[i].position1;
+      let pos2 = prices[i].position2;
+      let pos3 = prices[i].position3;
+      let pos4 = prices[i].position4;
+      let pos5 = prices[i].position5;
+      let pos6 = prices[i].position6;
+      let pos7 = prices[i].position7;
+      let pos8 = prices[i].position8;
+      let pos9 = prices[i].position9;
+      let pos10 = prices[i].position10;
+
+      contentRef.innerHTML += getPriceTemplate(pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9, pos10)
     }
+  }
+
+  function renderMe() {
+    let contentRef = document.getElementById('aboutMe');
+    contentRef.innerHTML = "";
+    contentRef.innerHTML += aboutMeTemplate();
   }
 
   function getInfoTemplate() {
@@ -82,7 +90,7 @@ function init() {
     `;
   }
 
-  function getPriceTemplate(price1, price2, price3, price4, price5, price6, price7, price8, price9, price10) {
+  function getPriceTemplate(pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9, pos10) {
 
     return `
       <div class="priceContent">
@@ -90,36 +98,60 @@ function init() {
         <div class="priceList">
           <div class="priceBox">
             <h3>Verbrauchsausweise</h3>
-            <p class="pricePara">Grundpreis ${price1}</p>
-            <p class="pricePara">je m<sup>2</sup> ${price2}</p>
+            <p class="pricePara">Grundpreis ${pos1}</p>
+            <p class="pricePara">je m<sup>2</sup> ${pos2}</p>
           </div>
           <div class="priceBox">
             <h3>Bedarfsausweis</h3>
-            <p class="pricePara">mit aktuellen Gebäudedaten ${price3}</p>
-            <p class="pricePara">mit Datenaufnehme ${price4}</p>
+            <p class="pricePara">mit aktuellen Gebäudedaten ${pos3}</p>
+            <p class="pricePara">mit Datenaufnehme ${pos4}</p>
           </div>
           <div class="priceBox">
             <h3>Unverbindliche energetische Beurteiling</h3>
-            <p>vor Ort < 1h ${price5}</p>
+            <p>vor Ort < 1h ${pos5}</p>
           </div>
           <div class="priceBox">
             <h3>Energetische Gebäudeberechnung mit Protokolierung</h3>
-            <p>Mit unverbindlichen Sanierungsempfehlungen ${price6}</p>
+            <p>Mit unverbindlichen Sanierungsempfehlungen ${pos6}</p>
           </div>
           <div class="priceBox">
             <h3>Individueller Sanierungsfahrplan(ISFP)</h3>
-            <p> <3 Wocheneinheiten ${price7}</p>
-            <p> <6 Wocheneinheiten ${price8}</p>
-            <p>je weiter Wocheneinheit +${price9}</p>
+            <p> <3 Wocheneinheiten ${pos7}</p>
+            <p> <6 Wocheneinheiten ${pos8}</p>
+            <p>je weiter Wocheneinheit +${pos9}</p>
           </div>
           <div class="priceBox">
-            <h3>Einzelmaßnahmen für Förderungen ${price10}</h3>
+            <h3>Einzelmaßnahmen für Förderungen ${pos10}</h3>
           </div>
           <div class="priceFooter">
             <a class="priceLink">weitere Tätigkeiten auf Anfrage</a>
-            <l>Preise können sich je nach zeitlichem oder erhötem Aufwand ändern.</l>
+            <i>Preise können sich je nach zeitlichem oder erhötem Aufwand ändern.</i>
           </div>
         </div>
       </div>
     `;
   }
+
+function aboutMeTemplate() {
+
+  return`
+    <div class="meTxt">
+    <h3>Titel für diesen Absatz</h3>
+      <p class="para1">
+        Ich bin seit 2014 als Schornsteinfeger tätig und hab im Jahr 2023 erfolgreich meine Meisterprüfung abgeschlossen. 
+      </p>
+      <p class="para2">
+        Mein Interesse an den Themen Sanierung, Energiewende und Nachhaltigkeit veranlasste mich, wärend meiner Meisterausbildung 
+        auch die Qualifikation als Gebäudeenergieberater zu erwerben. Ein Jahr später entschied ich mich mein eigenes Unternehmen zu gründen, 
+        das seit dem 15. Juli 2024 für meine Kunden geöffnet ist.
+      </p>
+      <p>
+        Für Mitte 2025 plane ich ebenfalls einen eigenen Bezirk asl Schornsteinfegermeister zu Übernehmen.
+      </p>
+      <p>
+        Mein privates Glück habe ich als Ehemann und Vater zweier wundervollen Töchter gefunden. Als Familie verbringen wir viel Zeit in unserem 
+        Kleingarten um unsere Energie wieder aufzutanken. Zum Ausgleich mache ich Musik und fahre gerne mal Motorrad.
+      </p>
+    </div>
+  `;
+}

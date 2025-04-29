@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/aboutMe.css">
+
+    <script src="./scripts/script.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="init(), renderMe()">
+    <header w3-include-html="header.html"></header>
+
+    <aside>
+        <div class="linkBox">
+            <a class="asideLink" href="index.html">Startseite</a>
+            <a class="asideLink" href="price.html">Preise und Leisungen</a>
+            <a class="asideLink active" href="aboutMe.html">Über Mich</a>
+            <a class="asideLink" href="kontackts.htnml">Kantacktieren Sie mich</a>
+        </div>
+    </aside>
+    
+    <div class="abotMeContent">
+        <h2>Christoph Ulka</h2>
+        <div class="aboutMe">
+            <img class="meImg" src="./assets/img/chris.png" alt="me">
+            <div class="aboutMe" id="aboutMe"></div>
+        </div>
+    </div>
+
+    <footer w3-include-html="footer.html"></footer>
+
+</body>
+</html>

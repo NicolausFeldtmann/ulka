@@ -1,0 +1,15 @@
+.abotMeContent{
+    margin: 0px 0px 0px 160px;
+}
+
+.meImg{
+    width: 148px;
+    height: 148px;
+    border-radius: 10px;
+    float: none;
+    margin: 8px 8px 8px 8px;
+}
+
+.meTxt{
+    width: 75%;
+}
