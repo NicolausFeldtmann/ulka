@@ -1,18 +1,7 @@
-.pricePageContent{
-    margin: 0px 0px 0px 160px;
+body{
+    margin: 0;
 }
 
-aside{
-    z-index: 5;
-    top: 48px;
-    width: 134px;
-    height: 480px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(184, 192, 119);
-    left: 0;
-    position: absolute;
-    border-radius: 10px;
+.pricePageContent{
+    margin: 0px 0px 0px 160px;
 }

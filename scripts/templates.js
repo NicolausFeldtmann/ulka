@@ -88,24 +88,25 @@ function aboutMeTemplate() {
 function getConsulTemplate() {
 
   return`
-    <div class="consulContent">
-      <h2>Energieberatng</h2>
-      <h3>Was macht ein Gebäudeenergieberater eigentlich?</h3>
-      <p class="consulPara">
-        In der Heutigen Zeit ist es eine Herausforderung Thema Haussanierung den Überblick zu erhalten.
-      </p>
-      <p>
-        Förderung, Gesetze und Standarts unterliegen ständigen Veränderungen. Zudem kursieren Fehlinformation 
-        über Anlagetechnick und Sanierung, was es schwierig macht die Warheit zu erkennen
-      </p>
-      <p>
-        Um in diesem Chaos klarheit zu schaffen und ihnen als Kunden fachgerecht Informationen zubieten, 
-        stehe ich ihnen als Energieberater zur Verfügung.
-      </p>
-      <p>
-        Darüber hinaus haben Sie die Möglichkeit durch eine Zusammenarbeit mit mir, als gelisteten Energie-Effizienz_Experten, 
-        Ihre Sanierungsmaßnahmen staatlch förderfähig zu machen und so Geld zu sparen.
-      </p>
+    <div class="conContent">
+      <h2>Energieberatung</h2>
+      <div class="conTxt">
+        <h3>Was macht ein Gebäudeenergieberater eigentlich?</h3>
+        <p class="conPara">
+          In der heutigen Zeit ist es eine Herrausforderung beim Thema Haussanierung den Überblick zu behalten.
+        </p>
+        <p class="conPara">
+          Förderung, Gesetze und und technische Standarts unterliegen ständigen Veränderungen. 
+          Zudem kusieren Fehlinformationen über Anlagetechnik und was es schwierig macht, die Warheit zu erkennen. 
+        </p>
+        <p class="conPara">
+          Um in diesem Chaos Klarheit zu schaffen und ihnen als Kunden fachgerechte Informationen zu bieten, stehe ich ihnen als Energieberater zur Verfügung.
+        </p>
+        <p class="conPara">
+          Darüber hinaus haben Sie die Möglichkeit durch eine Zusammenarbeit mit mir, als gelisteten Energie-Effiziens-Experten ihre 
+          Sanierungsmßnahmen staatlich föderfähig zu machen und so Geld zu sparren.
+        </p>
+      </div>
     </div>
   `;
 }
