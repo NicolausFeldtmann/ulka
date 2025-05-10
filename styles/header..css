@@ -3,6 +3,7 @@ body{
 }
 
 .headerSection{
+    width: 100vw;
     background-color: #356735;
     padding: 8px 0px 8px 0px;
     box-shadow: -3px -2px 27px 14px rgba(0,0,0,0.49);
