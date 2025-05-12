@@ -44,3 +44,8 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.footerImg{
+    display: flex;
+    justify-content: center;
+}
