@@ -74,3 +74,8 @@ function renderConsul() {
   contentRef.innerHTML = "";
   contentRef.innerHTML += getConsulTemplate();
 }
+
+function showAside() {
+  let x = document.getElementById('aside');
+  x.classList.toggle('show');
+}

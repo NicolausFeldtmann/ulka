@@ -20,3 +20,7 @@ body{
     -webkit-box-shadow: -1px -11px 15px 1px rgb(184, 192, 119);
     -moz-box-shadow: -1px -11px 15px 1px rgb(184, 192, 119);
 }
+
+.priceList{
+    margin: 0px 0px 0px 12px;
+}

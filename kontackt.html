@@ -17,7 +17,10 @@
 <body onload="init()">
     <header w3-include-html="header.html"></header>
 
-    <aside>
+    <aside id="aside">
+        <div class="iconBox xIcon" onclick="showAside()">
+            <img class="menuIcon" src="./assets/img/xIcon.png">
+        </div>
         <div class="linkBox">
             <a class="asideLink" href="index.html">Startseite</a>
             <a class="asideLink" href="price.html">Preise und Leisungen</a>
@@ -26,13 +29,26 @@
         </div>
     </aside>
 
+    <div class="background">
+        <img class="backgroundImgCon" src="./assets/img/chimney2.png">
+    </div>
+
+    <div class="backgroundShadowCon"></div>
+
     <div class="contacts">
-        <h2>Einfache Kontackaufnahme</h2>
+
+        <div class="menuArea" onclick="showAside()">
+            <div class="iconBox">
+                <img class="menuIcon" src="./assets/img/menuIcon.png">
+            </div>
+        </div>
+
+        <h2 class="conH2">Einfache Kontackaufnahme</h2>
 
         <div class="contentHeader">
-            <img class="contactImg" src="./assets/img/logo.png">
+            <img class="companyLogo conLogo" src="./assets/img/logo.png">
             <div class="contentHeaderTxt">
-                <h3>Ein Titel für diesen Absatz</h3>
+                <h3 class="conH3">Ein Titel für diesen Absatz</h3>
                 <div class="slogan">
                     <p class="contactPara">Interesse geweckt?</p>
                     <p class="contactPara">Noch Fragen?</p>

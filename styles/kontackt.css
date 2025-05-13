@@ -1,6 +1,15 @@
 .contacts{
-    margin: 0px 0px 0px 160px;
-    width: 75%;
+    margin: 0px 0px 0px 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.conH2{
+    margin: 34px 0px 0px 22px;
 }
 
 .contactImg{
@@ -9,11 +18,14 @@
 
 .contentHeader{
     display: flex;
-    margin: 16px 0px 34px 0px;
+    margin: 16px 12px 34px 12px;
 }
 
 .contentHeaderTxt{
-    margin: 0px 0px 0px 196px;
+    margin: 0px 0px 0px 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .emailContainer{
@@ -55,4 +67,32 @@ textarea{
     height: 148px;
     font-size: 18px;
     border-radius: 5px;
+}
+
+.backgroundShadowCon{
+    height: 24px;
+    background-color: rgb(184, 192, 119);
+    box-shadow: -1px -11px 15px 1px rgb(184, 192, 119);
+    -webkit-box-shadow: -1px -11px 15px 1px rgb(184, 192, 119);
+    -moz-box-shadow: -1px -11px 15px 1px rgb(184, 192, 119);
+    margin: 149px 0px 0px 0px;
+}
+
+.backgroundImgCon{
+    width: 100%;
+    height: 48vh;
+    object-fit: cover;
+    object-position: bottom;
+    position: absolute;
+    z-index: -2;
+    margin: 385px 0px 0px 0px;
+}
+
+.conH3{
+    font-size: 28px;
+}
+
+.contactPara{
+    font-size: 20px;
+    margin: 4px 0px 4px 0px;
 }

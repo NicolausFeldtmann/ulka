@@ -15,7 +15,10 @@
 <body onload="init(), renderPriceList()">
     <header w3-include-html="header.html"></header>
 
-    <aside>
+    <aside id="aside">
+        <div class="iconBox xIcon" onclick="showAside()">
+            <img class="menuIcon" src="./assets/img/xIcon.png">
+        </div>
         <div class="linkBox">
             <a class="asideLink" href="index.html">Startseite</a>
             <a class="asideLink active">Preise und Leisungen</a>

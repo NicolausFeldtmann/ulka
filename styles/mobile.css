@@ -1,6 +1,106 @@
+@media screen and (max-width: 960px) {
+
+    .conLogo{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .contentHeader{
+        flex-direction: column;
+    }
+
+    .contentHeaderTxt{
+        margin: 0;
+    }
+
+}
+
 @media screen and (max-width: 650px) {
 
     .companyLogo{
         width: 148px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .headerSection{
+        position: fixed;
+    }
+
+    .companyLogoArea{
+        width: 48vw;
+    }
+
+    aside{
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .menuArea{
+        display: flex;
+    }
+
+    .xIcon{
+        display: flex;
+    }
+
+    .content{
+        margin: 0;
+    }
+
+    .pricePageContent{
+        margin: 0;
+    }
+
+    .priceList{
+        width: 75%;
+        margin: 0px 0px 12px 0px;
+    }
+
+    .aboutMeContent{
+        margin: 0;
+    }
+
+    .contacts{
+        margin: 0;
+    }
+
+    .energieImg{
+        width: 228px;
+    }
+
+    .backgroundShadow{
+        height: 0;
+    }
+
+    .backgroundShadowMe{
+        height: 0;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .backgroundShadowPrice{
+        height: 0;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .backgroundShadowCon{
+        height: 0;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .asideLink{
+        font-size: 36px;
+        padding: 12px 12px 12px 12px;
+        width: 100%;
+        margin: 48px 0px 48px 0px;
+    }
+
+    .linkBox{
+        height: 580px;
     }
 }

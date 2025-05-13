@@ -17,7 +17,10 @@
 <body onload="init(), renderMe()">
     <header w3-include-html="header.html"></header>
 
-    <aside>
+    <aside id="aside">
+        <div class="iconBox xIcon" onclick="showAside()">
+            <img class="menuIcon" src="./assets/img/xIcon.png">
+        </div>
         <div class="linkBox">
             <a class="asideLink" href="index.html">Startseite</a>
             <a class="asideLink" href="price.html">Preise und Leisungen</a>
@@ -27,12 +30,18 @@
     </aside>
 
     <div class="background">
-        <img class="backgroundImgMe" src="./assets/img/sweeper.png">
+        <img class="backgroundImgMe" src="./assets/img/chimney3.png">
     </div>
 
     <div class="backgroundShadowMe"></div>
     
     <div class="aboutMeContent">
+
+        <div class="menuArea" onclick="showAside()">
+            <div class="iconBox">
+                <img class="menuIcon" src="./assets/img/menuIcon.png">
+            </div>
+        </div>
 
         <div class="contentHead">
             <div class="companyLogoArea">
@@ -42,7 +51,9 @@
 
         <h2>Christoph Ulka</h2>
         <div class="aboutMe">
-            <img class="meImg" src="./assets/img/chris.png" alt="me">
+            <div class="meImgBox">
+                <img class="meImg" src="./assets/img/chris.png" alt="me">
+            </div>
             <div class="aboutMe" id="aboutMe"></div>
         </div>
     </div>

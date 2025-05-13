@@ -65,19 +65,19 @@ function aboutMeTemplate() {
 
   return`
     <div class="meTxt">
-    <h3>Titel für diesen Absatz</h3>
-      <p class="para1">
+    <h3 class="meH3">Titel für diesen Absatz</h3>
+      <p class="paraMe">
         Ich bin seit 2014 als Schornsteinfeger tätig und hab im Jahr 2023 erfolgreich meine Meisterprüfung abgeschlossen. 
       </p>
-      <p class="para2">
+      <p class="paraMe">
         Mein Interesse an den Themen Sanierung, Energiewende und Nachhaltigkeit veranlasste mich, wärend meiner Meisterausbildung 
         auch die Qualifikation als Gebäudeenergieberater zu erwerben. Ein Jahr später entschied ich mich mein eigenes Unternehmen zu gründen, 
         das seit dem 15. Juli 2024 für meine Kunden geöffnet ist.
       </p>
-      <p>
+      <p class="paraMe">
         Für Mitte 2025 plane ich ebenfalls einen eigenen Bezirk asl Schornsteinfegermeister zu Übernehmen.
       </p>
-      <p>
+      <p class="paraMe">
         Mein privates Glück habe ich als Ehemann und Vater zweier wundervollen Töchter gefunden. Als Familie verbringen wir viel Zeit in unserem 
         Kleingarten um unsere Energie wieder aufzutanken. Zum Ausgleich mache ich Musik und fahre gerne mal Motorrad.
       </p>
