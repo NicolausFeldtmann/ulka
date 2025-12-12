@@ -1,11 +1,10 @@
 <template>
   <Header></Header>
-  <LandingPage></LandingPage>
+  <router-view></router-view>
   <Footer></Footer>
 </template>
 
 <script>
-import LandingPage from './components/LandingPage.vue';
 import Footer from './shared/Footer.vue';
 import Header from './shared/Header.vue';
 
@@ -13,7 +12,6 @@ export default {
   name: 'App',
   components: {
     Header,
-    LandingPage,
     Footer
   }
 }

@@ -53,6 +53,14 @@ export default {
     text-decoration: none;
     font-size: 28px;
     margin: 0px 24px 0px 24px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.footer-link:hover{
+    color: #2c3e50;
+    background-color: rgb(184, 192, 119);
 }
 
 .seperator{

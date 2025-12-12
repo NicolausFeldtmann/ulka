@@ -1,26 +1,26 @@
 <template>
     <div class="header-content">
-        <div class="logo-area">
+        <router-link class="logo-area" to="/">
             <img class="logo" src="./../assets/img/soloLogo.png" alt="logo">
-        </div>
+        </router-link>
         <nav>
             <div class="link-box">
-                <a class="nav-link" href="#">Start</a>
+                <router-link class="nav-link" to="/">Start</router-link>
             </div>
             <div>
-                <a class="nav-link" href="#">Der Schornsteinfeger</a>
+                <router-link class="nav-link" to="/tasks">Der Schornsteinfeger</router-link>
             </div>
             <div>
-                <a class="nav-link" href="#">Das sind Wir</a>
+                <router-link class="nav-link" to="/team">Das sind Wir</router-link>
             </div>
             <div>
-                <a class="nav-link" href="#">Unsere Leisungen</a>
+                <router-link class="nav-link" to="/service">Unsere Leisungen</router-link>
             </div>
             <div>
-                <a class="nav-link" href="#">Gesetze und Verordnungen</a>
+                <router-link class="nav-link" to="/law">Gesetze und Verordnungen</router-link>
             </div>
             <div>
-                <a class="nav-link" href="#">Kontackt</a>
+                <router-link class="nav-link" to="/contact">Kontackt</router-link>
             </div>
         </nav>
     </div>
@@ -67,5 +67,14 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 28px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: #2c3e50;
+    background-color: rgb(184, 192, 119);
+    transition: 0.5s;
 }
 </style>
