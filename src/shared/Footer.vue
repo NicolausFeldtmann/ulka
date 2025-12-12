@@ -1,13 +1,13 @@
 <template>
     <div class="footer-content">
         <div class="footer-link-area">
-            <a class="footer-link" href="#">Impressum</a>
+            <router-link class="footer-link" active-class="active-link" to="/impress">Impressum</router-link>
             <div class="seperator"></div>
-            <a class="footer-link" href="#">Datenschutz</a>
+            <router-link class="footer-link" active-class="active-link" to="/privacy">Datenschutz</router-link>
         </div>
-        <div class="logo-footer-area">
+        <router-link class="logo-footer-area" to="/">
             <img class="logo" src="./../assets/img/soloLogo.png" alt="logo">
-        </div>
+        </router-link>
     </div>
 </template>
 
@@ -61,6 +61,12 @@ export default {
 .footer-link:hover{
     color: #2c3e50;
     background-color: rgb(184, 192, 119);
+}
+
+.active-link{
+    color: #2c3e50;
+    background-color: rgb(184, 192, 119);
+    transition: 0.5s;
 }
 
 .seperator{

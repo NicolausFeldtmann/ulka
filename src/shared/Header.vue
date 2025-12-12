@@ -5,22 +5,22 @@
         </router-link>
         <nav>
             <div class="link-box">
-                <router-link class="nav-link" to="/">Start</router-link>
+                <router-link class="nav-link" active-class="active-link" to="/">Start</router-link>
             </div>
             <div>
-                <router-link class="nav-link" to="/tasks">Der Schornsteinfeger</router-link>
+                <router-link class="nav-link" active-class="active-link" to="/tasks">Der Schornsteinfeger</router-link>
             </div>
             <div>
-                <router-link class="nav-link" to="/team">Das sind Wir</router-link>
+                <router-link class="nav-link" active-class="active-link" to="/team">Das sind Wir</router-link>
             </div>
             <div>
-                <router-link class="nav-link" to="/service">Unsere Leisungen</router-link>
+                <router-link class="nav-link" active-class="active-link" to="/service">Unsere Leisungen</router-link>
             </div>
             <div>
-                <router-link class="nav-link" to="/law">Gesetze und Verordnungen</router-link>
+                <router-link class="nav-link" active-class="active-link" to="/law">Gesetze und Verordnungen</router-link>
             </div>
             <div>
-                <router-link class="nav-link" to="/contact">Kontackt</router-link>
+                <router-link class="nav-link" active-class="active-link" to="/contact">Kontackt</router-link>
             </div>
         </nav>
     </div>
@@ -73,6 +73,12 @@ nav{
 }
 
 .nav-link:hover{
+    color: #2c3e50;
+    background-color: rgb(184, 192, 119);
+    transition: 0.5s;
+}
+
+.active-link{
     color: #2c3e50;
     background-color: rgb(184, 192, 119);
     transition: 0.5s;
