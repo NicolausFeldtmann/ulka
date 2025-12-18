@@ -29,4 +29,21 @@ body{
   text-align: center;
   color: #2c3e50;
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(53, 104, 53);
+    border-radius: 10px;
+    height: 64px;
+}
+
+::-webkit-scrollbar-track{
+    height: 36px;
+    background-color: rgb(184, 192, 119);
+    border-radius: 5px;
+}
 </style>

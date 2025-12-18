@@ -15,6 +15,7 @@ export let team = [
     {
         "name": "Thorsten Arps",
         "position": "Schornseinfegermeister",
+        "phone": "01590 1192417",
         "img": "default.png"
     }
 ]
