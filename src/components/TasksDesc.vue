@@ -68,24 +68,37 @@
 
     .centerSection{
         background-color: rgb(184, 192, 119);
-        width: 80%;
         max-width: 1440px;
-        height: 80%;
         border-radius: 35px;
     }
 
     .centerContent{
         display: flex;
         justify-content: space-between;
+        padding: 28px 0px 28px 0px;
     }
 
     .imgArea{
         background-image: url(./../assets/img/work1.png);
         height: 200px;
+        width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 75%;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
+    }
+
+    .txtArea{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .txt{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        text-align: left;
     }
 </style>

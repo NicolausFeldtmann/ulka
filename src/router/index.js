@@ -20,6 +20,7 @@ import FundingOptins from "@/components/our-services/FundingOptins.vue";
 import ProfAdvice from "@/components/our-services/ProfAdvice.vue";
 import FireSafty from "@/components/our-services/FireSafty.vue";
 import EnvProtection from "@/components/our-services/EnvProtection.vue";
+import EmmProtect from "@/components/our-services/EmmProtect.vue";
 
 const routes = [
     { path: "/", component: LandingPage },
@@ -36,13 +37,14 @@ const routes = [
     { path: "/alert", component: CoAlert },
     { path: "/exhaust", component: ExhaustControll },
     { path: "/gasControll", component: GasExControll },
+    { path: "/emmProtect", component: EmmProtect },
     { path: "/certificate", component: EnergyCertificate },
     { path: "/restruction", component: RestuctionPlan },
     { path: "/calcuation", component: HeatingCalculation },
     { path: "/funding", component: FundingOptins },
     { path: "/advice", component: ProfAdvice },
     { path: "/safty", component: FireSafty },
-    { path: "/env", component: EnvProtection }
+    { path: "/env", component: EnvProtection },
 ]
 
 const router = createRouter({
